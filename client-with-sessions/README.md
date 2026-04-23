@@ -10,11 +10,18 @@ You will not need to modify this frontend. However, your backend must implement 
 
 1. **Install dependencies**
    ```bash
-   npm install
+   pipenv install flask flask-sqlalchemy flask-migrate flask-bcrypt flask-restful flask-cors
+
+   **Active Environment**
+   pipenv shell
+
+   **
+  pipenv install flask-restful
    ```
 
 2. **Start the application**
    ```bash
+   npm install
    npm start
    ```
 
